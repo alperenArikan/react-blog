@@ -51,6 +51,12 @@ const Compose = () => {
                         file:downloadURL
                     })
                     setReady(true);
+                    setPrePost({
+                    title: "",
+                    body: "",
+                    author: "",
+                    date: newdate,
+                    file: "",})
             });
         });
         e.preventDefault();

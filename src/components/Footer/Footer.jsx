@@ -8,8 +8,7 @@ const Footer = () => {
                     <div className="row text-center text-md-start">
                         <div className="col-12 col-md-6 mb-3 ">
                             
-                            <Link to="/" >
-                            <a className="navbar-brand d-flex align-items-center">
+                            <Link className="navbar-brand d-flex align-items-center" to="/" >
                                 <div className="d-flex flex-column p-0">
                                     <div className="d-flex justify-content-start border-primary border-bottom border-2">
                                         <p className="m-0 logo-top ">ROOM</p>
@@ -18,7 +17,6 @@ const Footer = () => {
                                         <p className="ps-5 m-0 logo-bottom fw-bold">DESIGN INTERIOR</p>
                                     </div>
                                 </div>
-                            </a>
                             </Link>
                         </div>
                         <div className="col-12 col-md-6 pt-4">
@@ -35,16 +33,13 @@ const Footer = () => {
                         </div>
                         <div className="col-12 col-md-6 d-flex align-items-center py-2">
                             <ul className="list-unstyled d-flex mx-auto mx-md-0 ">
-                                <Link to="/">
                                 <li className="nav-item">
-                                <a className="nav-link fw-bold text-secondary">Home</a>
+                                <Link to="/" className="nav-link fw-bold text-secondary">Home</Link>
                                 </li>
-                                </Link>
-                                <Link to="/">
                                 <li className="nav-item">
-                                <a className="nav-link fw-bold  text-secondary">Post Something</a>
+                                <Link to="/compose" className="nav-link fw-bold  text-secondary">Post Something</Link>
                                 </li>
-                                </Link>
+
                             </ul>
                         </div>
                     </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from "../components/Navbar/Navbar"
 import Jumbotron from "../components/Jumbotron/Jumbotron"
 import PostSection from "../components/PostSection/PostSection"
 import HelperSection from "../components/HelperSection/HelperSection"
