@@ -1,0 +1,50 @@
+$theme-colors: (
+  "primary": #000,
+  "secondary": #8a8a8a,
+  "info": #fff,
+);
+html {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  @media (max-width: 768px) {
+    font-size: 12px;
+  }
+  @media (min-width: 2000px) {
+    font-size: 20px;
+  }
+  * {
+    list-style-type: none;
+    text-decoration: none !important;
+  }
+}
+.logo-top {
+  font-family: "Playfair Display", serif;
+}
+.logo-bottom {
+  font-family: "Playfair Display", serif;
+  font-size: 0.7rem;
+}
+#blog-header {
+  background: url(./assets/blog-header.jpg);
+  height: 84vh;
+  max-height: 1200px;
+  background-position: bottom;
+  background-size: cover;
+}
+.compose-background {
+  background: url(./assets/blog-header.jpg);
+  min-height: 84vh;
+  background-position: bottom;
+  background-size: cover;
+}
+.header-card {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+  .navbar-brand {
+    color: #000;
+    display: inline-block !important;
+  }
+}
+@import "~bootstrap/scss/bootstrap.scss";
